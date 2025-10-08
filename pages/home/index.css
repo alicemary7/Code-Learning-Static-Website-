@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0")
+    no-repeat center center/cover;
+  height: 1000px;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: #ffffff;
+}
+img {
+  border: 1px solid white;
+  border-radius: 10px;
+  top: 10px;
+}
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff6600;
+}
+nav a {
+  margin: 30px;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  font-weight: 500;
+}
+nav a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  gap: 100px;
+}
+nav a:hover {
+  color: #000000;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+  padding: 0 60px;
+}
+.content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.content h1 span {
+  color: #fcf392;
+}
+.content p {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.join-btn {
+  padding: 15px;
+  background: #ff6600;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+p {
+  font-size: 29px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How Does HTML Work?</title>
+    <link rel="stylesheet" href="./forms.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/assets/CODE.png" width="60px" height="60px" />&nbsp;Code
+        Learning
+      </div>
+      <nav class="navbar">
+        <a href="/pages/home/index.html">HOME</a>
+        <a href="/pages/HTML/index.html">HTML</a>
+        <a href="/pages/csss/index.html">CSS</a>
+
+        <a href="/pages/contact/index.html">CONTACT</a>
+      </nav>
+    </header>
+    <hr />
+    <h1>HTML Tags</h1>
+
+    <ul>
+      <li>
+        Tags are code constructs that define the elements which make up an HTML
+        page.
+      </li>
+      <li>
+        Example elements include paragraph, image, link, input, video,
+        navigation, and more.
+      </li>
+      <li>
+        Writing with tags:
+        <ul>
+          <li>
+            Tags start with a <code>&lt;</code> and end with a
+            <code>&gt;</code>, for example, <code>&lt;img&gt;</code> which
+            defines an image.
+          </li>
+          <li>
+            Most tags have two parts, an <em>opening tag</em> and a
+            <em>closing tag</em>.
+          </li>
+          <li>
+            The <em>closing tag</em> has the same text as the
+            <em>opening tag</em>, but prefixed with a <code>/</code> (forward
+            slash).
+          </li>
+          <li>
+            A video player, for example, is created with these tags:
+            <code>&lt;video&gt;</code> and <code>&lt;/video&gt;</code>.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <h2>Attribute Syntax</h2>
+    <hr />
+    <p>Attributes have two parts: a name and a value.</p>
+
+    <pre><code>
+&lt;<span class="tag">element</span> <span class="attr">name1</span>='<span class="value">value1</span>' <span class="attr">name2</span>='<span class="value">value2</span>'&gt; ... &lt;/<span class="tag">element</span>&gt;
+  </code></pre>
+
+    <ul>
+      <li><code>&lt;element&gt;</code> is the HTML element.</li>
+      <li>
+        <code>name1</code> and <code>name2</code> are the attribute names.
+      </li>
+      <li>
+        <code>value1</code> and <code>value2</code> are the attribute values.
+      </li>
+      <li>
+        Attribute values are set between single quotes (') or double quotes (").
+      </li>
+      <li>
+        Examples include <code>id</code>, <code>style</code>,
+        <code>class</code>, <code>name</code>, <code>href</code>, etc.
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Categories of Attributes</h2>
+    <hr />
+    <p>Regarding placement, HTML attributes fall into 3 categories:</p>
+
+    <ol>
+      <li>
+        <strong>Global Attributes</strong> -- these can be placed on all tags.
+      </li>
+      <li>
+        <strong>Multi-tag Attributes</strong> -- these can be placed on a
+        limited number of tags.
+      </li>
+      <li>
+        <strong>Single-tag Attributes</strong> -- these can be placed on one
+        specific tag.
+      </li>
+    </ol>
+
+    <div class="note">
+      <strong>Note:</strong> Irrespective the category, an attribute is always
+      just a modifier to an element.
+    </div>
+    <hr />
+    <h1>HTML Forms</h1>
+
+    <ul>
+      <li>A form is an area with input elements where users enter data.</li>
+      <li>
+        Input elements include text fields, radio buttons, submit buttons, and
+        more.
+      </li>
+      <li>Forms are defined with the <code>&lt;form&gt;</code> tag.</li>
+    </ul>
+
+    <h2>Example</h2>
+    <p>A login form with email and password textboxes, and a submit button.</p>
+
+    <div class="example-box">
+      <form>
+        <fieldset>
+          <legend>Login</legend>
+          <input type="text" placeholder="Email" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+    <hr />
+    <h1>HTML Tables</h1>
+
+    <ul>
+      <li>A table in HTML displays tabular data, just like a spreadsheet.</li>
+      <li>
+        A table has rows, columns, and, optionally, a header and a footer.
+      </li>
+      <li>
+        It takes at least 3 different tags to create a table:
+        <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, and
+        <code>&lt;td&gt;</code>.
+      </li>
+    </ul>
+
+    <h2>Example</h2>
+    <p>
+      A <code>&lt;table&gt;</code> with three rows and three columns. The top
+      row is a header row.
+    </p>
+
+    <div class="example-box">
+      <table>
+        <tr>
+          <th>FIRSTNAME</th>
+          <th>LASTNAME</th>
+          <th>COUNTRY</th>
+        </tr>
+        <tr>
+          <td>Christina</td>
+          <td>Berglund</td>
+          <td>Sweden</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>Larsson</td>
+          <td>Sweden</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+
+    <footer>
+      <p>Copyright © 2025.All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

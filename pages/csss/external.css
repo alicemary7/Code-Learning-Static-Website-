@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+  background: rgb(255, 255, 255);
+}
+img {
+  border: 1px solid white;
+  border-radius: 10px;
+  top: 10px;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+nav a {
+  margin: 30px;
+  color: rgb(28, 26, 26);
+  font-weight: 500;
+  text-decoration: none;
+}
+nav a {
+  font-size: 30px;
+  background-color: #ffffff;
+}
+.navbar {
+  gap: 100px;
+}
+nav a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+  background-color: #fff;
+  color: #111;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #111;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 30px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+  color: #111;
+  background: #fff;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #111;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+.example-box {
+  border: 2px dotted teal;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.internal-style {
+  padding: 15px;
+  background: moccasin;
+}
+
+pre {
+  background: #f6f8fa;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  color: #d6336c;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+  background: #fff;
+  color: #111;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #111;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  color: #b33;
+}
+
+.example-box {
+  border: 2px dotted teal;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.aliceblue {
+  background-color: aliceblue;
+  padding: 10px;
+  color: #333;
+}
+
+pre {
+  background: #f6f8fa;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+pre code {
+  color: #000;
+  font-size: 0.95rem;
+}
+
+pre code span.tag {
+  color: #b33;
+}
+
+pre code span.attr {
+  color: #d6336c;
+}
+
+pre code span.value {
+  color: #005cc5;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+p {
+  font-size: 29px;
+}

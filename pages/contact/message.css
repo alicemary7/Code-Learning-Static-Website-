@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: rgb(255, 255, 255);
+}
+img {
+  border: 1px solid white;
+  border-radius: 10px;
+  top: 10px;
+}
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff6600;
+}
+nav a {
+  margin: 30px;
+  color: rgb(28, 26, 26);
+  font-weight: 500;
+  text-decoration: none;
+}
+nav a {
+  font-size: 30px;
+  color: black;
+}
+.navbar {
+  gap: 100px;
+}
+
+nav a:hover {
+  color: #000000;
+}
+.message {
+  padding: 100px;
+  height: 100px;
+  width: 1150px;
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 90px;
+  margin-bottom: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+body {
+  background-color: #bbedfc;
+  gap: 100px;
+}
+p {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+p {
+  font-size: 29px;
+}
