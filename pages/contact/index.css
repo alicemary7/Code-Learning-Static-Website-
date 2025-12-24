@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px;
+  padding: 40px;
   background: rgb(255, 252, 252);
 }
 img {
@@ -92,6 +92,9 @@ textarea {
 }
 .full-width {
   width: 500px;
+}
+.full-width input,select                                          {
+  width:80%;
 }
 .checkbox {
   display: flex;
